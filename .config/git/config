@@ -1,0 +1,23 @@
+[github]
+	user = ByronAmbright
+[user]
+	name = Byron Ambright
+	email = byronambrightjr@gmail.com
+[gui]
+	fontdiff = -family Menlo -size 13 -weight normal -slant roman -underline 0 -overstrike 0
+[log]
+	# Human readable dates, unless no pager is used
+	date = auto:human
+[init]
+	defaultBranch = main
+[core]
+	# Abbreviate object names
+	abbrev = auto
+	# Default editor
+	editor = vi
+	# End of lines conversion
+	autocrlf = false
+[color]
+	diff = auto
+	status = auto
+	ui = true
