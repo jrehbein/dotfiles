@@ -47,9 +47,9 @@ esac
 
 # Check for colour
 if type tput &> /dev/null; then
-	  color_prompt='yes'
+    color_prompt='yes'
 else
-	  color_prompt=
+    color_prompt=
 fi
 
 # Number of trailing directory components to retain when expanding \w in PS1.
@@ -115,7 +115,6 @@ fi
 # if .git-prompt.sh exists, set options and execute it
 if ! shopt -oq posix; then
     GIT_PS1_SHOWDIRTYSTATE=true
-    GIT_PS1_SHOWSTASHSTATE=true
     GIT_PS1_HIDE_IF_PWD_IGNORED=true
 
     if [ -f /usr/local/share/git-core/contrib/completion/git-prompt.sh ]; then
