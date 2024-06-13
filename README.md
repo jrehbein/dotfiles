@@ -21,6 +21,11 @@ Run the setup script:
 
     ./devops/setup.sh
 
+To reset the changes:
+
+    ./devops/reset.sh
+    Then restart the terminal
+
 
 ## Sources
 
