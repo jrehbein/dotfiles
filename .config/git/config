@@ -1,8 +1,8 @@
 [github]
-	user = ByronAmbright
+	user = jrehbein
 [user]
-	name = Byron Ambright
-	email = byronambrightjr@gmail.com
+	name = Jeff Rehbein
+	email = jeffdrehbein@gmail.com
 [gui]
 	fontdiff = -family Menlo -size 13 -weight normal -slant roman -underline 0 -overstrike 0
 [log]
@@ -14,7 +14,7 @@
 	# Abbreviate object names
 	abbrev = auto
 	# Default editor
-	editor = vi
+	editor = emacs
 	# End of lines conversion
 	autocrlf = false
 [color]

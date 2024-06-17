@@ -24,9 +24,9 @@ shopt -s globstar
 # Prevent Ctrl-D (EOF) from exiting shell
 set -o ignoreeof
 
-export VISUAL='vim'
-export EDITOR='vim'
-export FCEDIT='vim'
+export VISUAL='emacs'
+export EDITOR='emacs'
+export FCEDIT='emacs'
 
 #Used to prevent prompt from being overridden in certain scripts
 export PRESERVE_PROMPT=true

@@ -11,7 +11,7 @@ These are my dotfiles and related files.
 
 Clone the repository:
 
-    git clone https://github.com/ByronAmbright/dotfiles.git
+    git clone https://github.com/jrehbein/dotfiles.git
 
 Change into the repository directory:
 

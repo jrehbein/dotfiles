@@ -73,6 +73,7 @@ function remove_symlinks_of_source_file() {
 
     for FILE_FOUND in $(find -L $HOME -samefile $SOURCE_FILE_PATH)
     do
+        echo "checking for symlink of $SOURCE_FILE_PATH found at $FILE_FOUND in $HOME"
         if [ "$(readlink "$FILE_FOUND")" -ef "$SOURCE_FILE_PATH" ] ; then
             echo "Removing symlink of $SOURCE_FILE_PATH found at $FILE_FOUND"
             rm $FILE_FOUND
